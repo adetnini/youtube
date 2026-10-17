@@ -1,0 +1,31 @@
+.countainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img{
+    width: 330px;
+}
+.pic{
+    width: 100%;
+    border-radius: 20px;
+}
+.innerbox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-gap: 5px; */
+}
+.img-con{
+    width: 100px;
+}
+.img-con img{
+    width: 100%;
+    border-radius: 50%;
+}
+p{
+    width: 120%;
+    margin-left: -50px;
+}
+span{
+    color: white;
+    background-color: black;
+}
