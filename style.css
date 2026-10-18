@@ -29,3 +29,41 @@ span{
     color: white;
     background-color: black;
 }
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+}
+#search{
+    height: 30px;
+}
+#profile{
+    border-radius: 50%;
+    height:24px ;
+    width: 24px;
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+body{
+    margin: 0;
+    padding: 100px;
+}
